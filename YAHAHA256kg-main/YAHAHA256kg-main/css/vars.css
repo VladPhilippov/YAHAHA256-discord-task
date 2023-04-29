@@ -1,0 +1,16 @@
+:root {
+    --bg-color: #2C3139;
+    --btn-green: #00FFA3;
+    --btn-yellow: #FFC200;
+    --btn-purple: #A098FF;
+    --text-light: #D8E1EF;
+    --text-black: #000000;
+    --text-white: #FFFFFF;
+    --text-gray: #4A525F;
+    --text-title: 40px;
+    --text-content: 20px;
+    --text-btn: 22px;
+    --text-mblcontent: 14px;
+    --text-mbltitle: 24px;
+    --text-mblbutton: 18px;
+}

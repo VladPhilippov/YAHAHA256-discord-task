@@ -1,0 +1,153 @@
+@media screen and (max-width: 450px) {
+    .wrapper{
+        overflow-x: hidden;
+      }
+
+      .wings__container{
+        padding-top: 23px;
+        padding-bottom: 27px;
+      }
+      .wings-info__top{
+        font-size: 14px;
+        color: rgba(216, 225, 239, 0.6);
+        font-family: 'Inter', sans-serif;
+        line-height: 20px;
+      }
+      .wings-info__bottom{
+        font-size: 18px;
+        color: rgba(216, 225, 239, 0.87);
+        font-family: 'Inter', sans-serif;
+        line-height: 28px;
+      }
+      .wings__info{
+        background-image: url(../img/imgMain1/yahahawingsMbl.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        text-align: center;
+        padding: 87px 22px;
+      }
+      .discord__container{
+        padding-bottom: 44px;
+        padding-top: 27px;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .drow{
+        background-image: url(../img/imgDiscord/titleDiscordMbl.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 0 28px;
+      }
+      .title__text{
+        font-size: 24px;
+        line-height: 26px;
+        padding: 0 26px;
+        padding-top: 16px;
+      }
+      .discord__img{
+        display: none;
+      }
+      .steps{
+        display: flex;
+        padding: 0 7px;
+        padding-top: 34px;
+        column-gap: 80px;
+      }
+      .steps__step1{
+        background-image: url(../img/imgDiscord/stepsMbl.svg);
+        background-repeat: no-repeat;
+        position: relative;
+      }
+      .steps__step2{
+        background-image: url(../img/imgDiscord/stepsMbl.svg);
+        background-repeat: no-repeat;
+        position: relative;
+        right: 76px;
+      }
+      .info__title-1{
+        font-family: 'Rubik', sans-serif;
+        font-size: 34px; 
+        line-height: 40px;
+        color:  #4A525F;
+        font-weight: 700; 
+        padding-left: 12px;
+      }
+      .info__title-2{
+        font-family: 'Rubik', sans-serif;
+        font-size: 34px; 
+        line-height: 40px;
+        color:  #4A525F;
+        font-weight: 700; 
+        padding-left: 12px;
+      }
+      .step1__info{
+        display: inline;
+      }
+      .step2__info{
+        display: inline;
+      }
+      .info__text-1{
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px; 
+        line-height: 20px;
+        color:  #D8E1EF;
+        font-weight: 500;
+        padding-left: 12px;
+        padding-right: 50px;
+      }
+      .info__text-2{
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px; 
+        line-height: 20px;
+        color:  #D8E1EF;
+        font-weight: 500;
+        padding-left: 12px;
+        padding-right: 40px;
+        padding-bottom: 23px;
+      }
+      .date{
+        padding-top: 24px;
+        text-align: center;
+      }
+      .date__title{
+        position: relative;
+        margin: 0 auto;
+        width: 188px;
+      }
+      .date__title-first{
+        font-family: 'Rubik', sans-serif;
+        color: #D8E1EF;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+      }
+      .date__title-second{
+        padding-left: 10px;
+      }
+      .date__title-line{
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        background-color: #D8E1EF;
+      }
+      .date__text{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #D8E1EF;
+        padding-top: 10px;
+      }
+      .discord__btn{
+        text-align: center;
+      }
+      .btn__title span{
+        display: inline;
+      }
+}
+@media screen and (max-width: 400px){
+    .wings__info{
+        padding: 68px 22px;
+    }
+}

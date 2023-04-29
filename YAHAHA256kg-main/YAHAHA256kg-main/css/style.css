@@ -1,0 +1,230 @@
+/* =========================== COPMONENTS =========================== */
+.container{
+  max-width: 1230px;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* --- Title --- */
+.title{
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-size: var(--text-title); 
+  line-height: 47px;
+  text-align: center;
+  color: var(--text-light); 
+}
+
+/* --- Buttton --- */
+.btn{
+  font-size: var(--text-btn);
+  border-radius: 105px;  
+  padding: 12px 30px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+.btn::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;height: 100%;
+  left: 0; top: 0;
+  border-radius: 105px; 
+  z-index: -1;
+  opacity: 0.2;
+  transition: transform .2s ease-in;
+}
+.btn:hover::before{
+  transform: scaleY(1.2) scaleX(1.06);
+}
+.btn:active::before{
+  transition: transform .1s ease-in;
+  transform: scaleY(1.13) scaleX(1.04);
+}
+
+
+.btn--green{ background-color: var(--btn-green); }
+.btn--green::before{
+  background-color: inherit;
+}
+
+.btn--yellow{ background-color: var(--btn-yellow); }
+.btn--yellow::before{
+  background-color: inherit;
+}
+
+.btn--purple{ background-color: var(--btn-purple); }
+.btn--purple::before{
+  background-color: inherit;
+}
+
+
+.btn__icon{
+  margin-right: 12px;
+  width: 35px;
+  height: 35px;
+}
+
+.btn__icon--download img{
+  transform: scale(1.2);
+}
+
+.btn__icon img{
+  object-fit: cover;
+  object-position: center center;
+}
+
+
+.btn__title{
+  color: var(--text-black);
+  font-weight: 800;
+  font-size: var(--text-btn);
+  line-height: 23px;
+}
+
+
+/* ====================================================================== */
+/* =========================== SECTION STYLES =========================== */
+/* ====================================================================== */
+/* =-=-=-=-=-=-=-=-=-=- MAIN section =-=-=-=-=-=-=-=-=-= */
+.wings__container{
+  max-width: 1455px;
+  padding: 92px 15px;
+}
+
+.wings-info__top{
+  font-size: 16px;
+  color: rgba(216, 225, 239, 0.6);
+  font-family: 'Inter', sans-serif;
+  line-height: 19.5px;
+}
+.wings-info__bottom{
+  font-size: 22px;
+  color: rgba(216, 225, 239, 0.87);
+  font-family: 'Inter', sans-serif;
+  line-height: 44px;
+}
+
+.wings__info{
+  background-image: url(../img/imgMain1/yahahawings.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 53px 0;
+}
+.drow{
+  background-image: url(../img/imgDiscord/titleDiscord.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+}
+.steps{
+  display: flex;
+  padding-top: 70px;
+}
+.steps__step1{
+  background-image: url(../img/imgDiscord/steps.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 21px;
+}
+
+.step1__info{
+  padding: 31px;
+  padding-right: 250px;
+  align-items: start;
+}
+.steps__step2{
+  background-image: url(../img/imgDiscord/steps.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  right: 200px;
+}
+
+.step2__info{
+  padding: 31px;
+  padding-right: 250px;
+  align-items: start;
+}
+.info__title-1{
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px; 
+  line-height: 52px;
+  color:  #4A525F;
+  font-weight: 700;
+}
+.info__title-2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px; 
+  line-height: 52px;
+  color:  #4A525F;
+  font-weight: 700;
+}
+.info__text-1{
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px; 
+  line-height: 26px;
+  color:  #D8E1EF;
+  font-weight: 400;
+}
+.info__text-2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px; 
+  line-height: 26px;
+  color:  #D8E1EF;
+  font-weight: 400;
+}
+.date{
+  padding-top: 40px;
+  align-items: start;
+}
+.date__title{
+  position: relative;
+  width: 229px;
+}
+.date__title-first{
+  font-family: 'Rubik', sans-serif;
+  color: #D8E1EF;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+.date__title-second{
+  padding-left: 15px;
+}
+
+.date__text{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #D8E1EF;
+  padding-top: 10px;
+}
+.header__btn{
+  margin-top: 40px;
+}
+.discord__img{
+  position: absolute;
+  left: 55%;
+  pointer-events: none;
+  mix-blend-mode: luminosity;
+  opacity: 40%;
+}
+.discord__container{
+  padding-top: 92px;
+  padding-bottom: 136px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.date__title-line{
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  background-color: #D8E1EF;
+}
+.btn__title span{
+  display: none;
+}
